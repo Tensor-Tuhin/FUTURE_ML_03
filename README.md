@@ -1,7 +1,7 @@
 # FUTURE_ML_03
 Customer Support Chatbot for Spotify (deployed using Streamlit)
 
-A small rule‑based chatbot that answers common support questions for a Spotify‑style music app: app crashes, login issues, billing/subscription problems, offline mode, and a few simple FAQs. What it does-
+A small rule‑based chatbot that answers common support questions for Spotify music app: app crashes, login issues, billing/subscription problems, offline mode, and a few simple FAQs. What it does-
 - Reads each user message and matches keywords to decide the issue (crash, login, billing, etc.).
 - Uses a tiny state dictionary to handle short multi‑turn flows, for example:
   “app keeps crashing” → bot asks for device/OS → bot suggests specific fixes.
